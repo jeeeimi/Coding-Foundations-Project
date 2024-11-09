@@ -1,0 +1,94 @@
+/* HERO SECTION STYLES */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+/* LEFT COLUMN */
+
+.hero-section > .hero-section-left-column{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0px 40px;
+    gap: 15px;
+}
+
+.hero-section > .hero-section-left-column h1{
+    font-size: 2.3em;
+    font-weight: 300;
+}
+
+.hero-section > .hero-section-left-column h1 span{
+    font-weight: 600;
+}
+
+.hero-section > .hero-section-left-column p{
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-top: -5px;
+    letter-spacing: 0.01em;
+    color: #A1A1A3;
+}
+
+/* LEFT COLUMN BUTTONS */
+
+.hero-section > .hero-section-left-column > .hero-section-btn {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.hero-section > .hero-section-left-column > .hero-section-btn > .btn-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4BCE79;
+    border: none;
+    outline: none;
+    color: #1e1e1e;
+    padding: 15px 20px;
+    font-size: 1.8em;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.hero-section > .hero-section-left-column > .hero-section-btn > .btn-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.8em;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* RIGHT COLUMN */
+
+.hero-section > .hero-section-right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.hero-section > .hero-section-right-column > .hero-section-right-column-content h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    text-indent: 20px;
+}
+
+.hero-section > .hero-section-right-column > .hero-section-right-column-content h2 span{
+    color: #6FD8F9;
+}
+
+.hero-section > .hero-section-right-column > .hero-section-right-column-content  img{
+    grid-column: span 6;
+    width: 600px;
+}

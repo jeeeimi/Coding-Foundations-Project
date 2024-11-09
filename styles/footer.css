@@ -1,0 +1,28 @@
+
+/* FOOTER GENERAL */
+
+.footer {
+    background-color: #35383E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+    border: 2px solid #676767;
+}
+
+/* FOOTER BLOCKS */
+
+.footer-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    font-size: 1.3em;
+} 
+
+/* FOOTER BLOCK SPAN */
+
+.footer-block span {
+    font-weight: 900;
+}
+

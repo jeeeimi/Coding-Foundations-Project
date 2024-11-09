@@ -1,0 +1,23 @@
+/* GENERAL STYLES */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+}
+
+/* LINK STYLES */
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+/* SPACERS */
+
+.spacer1 {
+    height: 50px;
+    width: 100%
+}
